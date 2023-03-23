@@ -28,7 +28,7 @@ int Ultrasonido::medirCM(){
 void Display7::configurar(byte _pines[]){
     for(byte x=0; x<7; x++){
         pines[x] = _pines[x];
-        pinMode(pines[x], OUTPUT;
+        pinMode(pines[x], OUTPUT);
     }
 };
 
