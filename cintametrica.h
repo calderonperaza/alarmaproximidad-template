@@ -6,13 +6,15 @@ class Ultrasonido{
  
 //constructor parametrizado, recibe como parametros Trigger y Echo como byte
 
+//aqui estoy trabajando en el archivo
 
 
-
-
-//Mide la distancia, el sensor es preciso hasta 3.5 metros
-// por tanto el valor maximo es 350 cmtros 
-
+/*
+asdfasdf
+ asdfasdfa
+ asdf
+*/
+ 
 };
 
 class Display7{
