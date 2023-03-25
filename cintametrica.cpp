@@ -1,4 +1,5 @@
-#include "arduino.h"
+//#include "arduino.h"
+#include <Arduino.h>
 #include "cintametrica.h"
 
 // ****** CLASE ULTRASONIDO  **********

@@ -1,7 +1,7 @@
 #ifndef cintametrica_h
 #define cintametrica_h
-#include "arduino.h"  
-
+//#include "arduino.h"
+#include <Arduino.h>
 class Ultrasonido{
 private:
     long distancia;
