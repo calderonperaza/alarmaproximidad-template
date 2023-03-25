@@ -1,5 +1,6 @@
 #define BUZZER 13
 #include <cintametrica.h>
+
 //construimos el objeto Ultrasonido(pintrigger, pinecho)
 Ultrasonido sensor(11,10);
 byte pines[7]={2,3,4,5,6,7,8}; //pines para el display 7 seg
