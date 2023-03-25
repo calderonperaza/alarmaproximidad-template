@@ -4,13 +4,13 @@
 // ** CLASE ULTRASONIDO  ******
 //Constructor parametrizado
 
-Ultrasonido::Ultrasonido(byte _pinTrigger, byte pin_Techo){
+Ultrasonido::Ultrasonido(byte _pinTrigger, byte _pinEcho){
   pinTrigger=_pinTrigger;
   pinEcho=_pinEcho;
   pinMode(_pinTrigger, OUTPUT);
-  pinMode(_pinEcho, INPUT)
-  };
-Ultrasonido:Ultrasonido(){};
+  pinMode(_pinEcho, INPUT);
+};
+Ultrasonido::Ultrasonido(){};
 
 //hace la medición de distancia, devuelve los cmtros de distancia hasta 350 cm maximo
 int Ultrasonido::medirCM(){
@@ -22,7 +22,7 @@ int Ultrasonido::medirCM(){
   distancia=pulseIn(pinEcho, HIGH)/56.5812;
   distancia=constrain(distancia,0,350);
   return (int) distancia;
-}
+};
 
 // ** CLASE DISPLAY7  ****
 // esta clase no emplea un constructor para configurarse
@@ -31,8 +31,8 @@ void Display7::configurar(byte _pines[]){
   for(byte x=0; x<7; x++){
       pines[x]=_pines[x];
       pinMode(pines[x],OUTPUT);
-  }
-}
+  };
+};
 void Display7::mostrar(byte _num){
   if(_num>9){
      _num=9;
@@ -42,5 +42,5 @@ void Display7::mostrar(byte _num){
       valor=matrix[_num][j];
       pin=pines[j];
       digitalWrite(pin,valor);
-    }
-}
+    };
+};

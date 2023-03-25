@@ -5,13 +5,13 @@
 class Ultrasonido{
  private:
   long  distancia;
- puplic :
+ public :
   byte pinEcho;
-  byte pinTigger;
+  byte pinTrigger;
  
  
 //constructor parametrizado, recibe como parametros Trigger y Echo como byte
-Ultrasonido(byte _pinTigger , byte _pinEcho);
+Ultrasonido(byte _pinTrigger , byte _pinEcho);
 Ultrasonido();
 
 
@@ -35,13 +35,14 @@ class Display7{
   { 1, 1, 1, 1, 1, 1, 1 },  // 8 EIGHT
   { 1, 1, 1, 0, 0, 1, 1 },  // 9 NINE
     
-   }
-};
- public:
+   };
+
+public:
   byte pines[7];
 //Se configura utilizando un metodo 
  void configurar(byte[]);
 //dibuja el numero en e display
  void mostrar(byte num);
+  
 };
 #endif
