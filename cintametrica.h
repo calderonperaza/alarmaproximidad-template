@@ -31,8 +31,7 @@ class Display7{
   { 1, 1, 1, 0, 0, 0, 0 },  // 7
   { 1, 1, 1, 1, 1, 1, 1 },  // 8
   { 1, 1, 1, 0, 0, 1, 1 },  // 9
-  }
-};
+  };
  public:
   byte pines[7];
  //Se configura utilizando un metodo 
