@@ -2,4 +2,4 @@
 ## Este es un ejemplo del uso de librerias de clases en Arduino
 
 
-### Ernesto Alexander Calderon
+# Samuel Oswaldo Cabezas Campos cc20019
