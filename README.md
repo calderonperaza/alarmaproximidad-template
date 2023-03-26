@@ -1,5 +1,3 @@
-# Libreria Arduino Alarma de Proximidad
+# Libreria Arduino Alarma de Proximidad BC20029
 ## Este es un ejemplo del uso de librerias de clases en Arduino
-
-
-### Luis Daniel Barraza Chorro
+### Luis Daniel Barraza Chorro 
