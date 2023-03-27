@@ -4,7 +4,7 @@
 // ****** CLASE ULTRASONIDO  **********
 //Constructor parametrizado
 
-Ultrasonido::Ultrasonido(){};
+Ultrasonido::Ultrasonido(byte _pinTrigger, byte _pinEcho){};
 
 //hace la medición de distancia, devuelve los cmtros de distancia hasta 350 cm maximo
 
