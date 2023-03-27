@@ -1,4 +1,4 @@
-Ultrasonido KEYWORD1    Ultrasonido
-Display7    KEYWORD1    Display7
+Ultrasonido KEYWORD1    
+Display7    KEYWORD1    
 medirCM KEYWORD2
 mostrar KEYWORD2
