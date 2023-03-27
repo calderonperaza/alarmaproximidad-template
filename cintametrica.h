@@ -32,15 +32,12 @@ class Display7{
  	 {1,1,1,1,1,1,1},
  	 {1,1,1,0,0,1,1} 
  };
-    public:
-         byte pines[7];
+ public:
+     byte pines[7];
 class Display7{
 };
 void configurar(byte[]);
 void mostrar(byte num);
 };
-
-#endif
-
 
 #endif
